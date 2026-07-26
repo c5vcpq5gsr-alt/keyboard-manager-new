@@ -14,7 +14,31 @@ permissions:
   contents: write
 
 jobs:
+  credentials_ready:
+    runs-on: macos-15
+    outputs:
+      ready: ${{ steps.check.outputs.ready }}
+    steps:
+      - id: check
+        env:
+          DEVELOPMENT_TEAM: ${{ secrets.APPLE_DEVELOPMENT_TEAM }}
+          SIGNING_IDENTITY: ${{ secrets.MACOS_SIGNING_IDENTITY }}
+          CERTIFICATE_BASE64: ${{ secrets.MACOS_CERTIFICATE_P12_BASE64 }}
+          CERTIFICATE_PASSWORD: ${{ secrets.MACOS_CERTIFICATE_PASSWORD }}
+          API_KEY_BASE64: ${{ secrets.APPLE_API_KEY_P8_BASE64 }}
+          API_KEY_ID: ${{ secrets.APPLE_API_KEY_ID }}
+          API_ISSUER: ${{ secrets.APPLE_API_ISSUER }}
+        run: |
+          if [[ -n "$DEVELOPMENT_TEAM" && -n "$SIGNING_IDENTITY" && -n "$CERTIFICATE_BASE64" && -n "$CERTIFICATE_PASSWORD" && -n "$API_KEY_BASE64" && -n "$API_KEY_ID" && -n "$API_ISSUER" ]]; then
+            echo "ready=true" >> "$GITHUB_OUTPUT"
+          else
+            echo "ready=false" >> "$GITHUB_OUTPUT"
+            echo "Release credentials are not configured; skipping CI notarization."
+          fi
+
   release:
+    needs: credentials_ready
+    if: needs.credentials_ready.outputs.ready == 'true'
     runs-on: macos-15
     environment: release
     steps:

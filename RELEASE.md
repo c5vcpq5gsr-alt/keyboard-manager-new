@@ -71,5 +71,6 @@ Anschließend `main` gegen Force-Pushes und Löschen schützen und die in `.gith
 - `APPLE_API_ISSUER`
 
 Die CI verwendet bewusst einen App-Store-Connect-API-Key, nicht das lokale App-Passwort. Ein Release wird nur aus einem `v*`-Tag oder über den manuellen Workflow erzeugt.
+Solange eines dieser Secrets fehlt, beendet der Workflow nach der Credential-Prüfung erfolgreich und überspringt die CI-Notarisierung. Ein lokal erzeugtes, vollständig geprüftes DMG kann weiterhin manuell veröffentlicht werden.
 
 Nach jeder Veröffentlichung muss das hochgeladene DMG frisch heruntergeladen, mit der lokalen SHA-256 verglichen und erneut mit `script/verify_release.sh ... --require-notarization` geprüft werden.
