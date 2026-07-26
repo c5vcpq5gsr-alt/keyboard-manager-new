@@ -797,8 +797,10 @@ struct CaptureView: View {
         let oldDraft = draft
         let oldPhotos = preparedPhotos
         undoManager?.registerUndo(withTarget: UndoBridge.shared) { _ in
-            draft = oldDraft
-            preparedPhotos = oldPhotos
+            MainActor.assumeIsolated {
+                draft = oldDraft
+                preparedPhotos = oldPhotos
+            }
         }
         undoManager?.setActionName("Editoränderung")
     }
