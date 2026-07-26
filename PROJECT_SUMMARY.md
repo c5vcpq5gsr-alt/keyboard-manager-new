@@ -449,11 +449,15 @@ Mit Beauftragung am 26. Juli 2026 beginnt nach abgeschlossener fachlicher Restpa
 - Lizenz, Datenschutz- und Drittanbieterhinweise sowie GitHub-CI-/Releasevorlagen liegen im Repository bereit. Das lokale V1-Notarisierungsprofil wird nicht wiederverwendet; V2 verwendet das separate Profil `keyboardmanager-new-notary`.
 - Das Releaseartefakt `dist/release/Keyboard-Manager-1.0.0-universal.dmg` des CI-Fix-Commits wurde am 27. Juli 2026 mit Submission-ID `448cec81-4726-4839-a2f6-d54a2ff77115` von Apple akzeptiert und gestapelt. Die erneute Prüfung des exakten DMG und der darin enthaltenen Universal-App bestätigt `source=Notarized Developer ID`; SHA-256: `6d4498f82d14a2bd331d5b433fe06d0a7f43f1d10599f2c9d126826987686e8e`.
 
-Vor der ersten externen Veröffentlichung stehen noch aus:
+## Öffentliche Erstveröffentlichung
 
-1. GitHub-Eigentümer und Sichtbarkeit (öffentlich/privat) bestätigen;
-2. sichtbare UI-Abnahme festlegen;
-3. Repository anlegen, `main` schützen, CI-Secrets hinterlegen und das geprüfte Artefakt veröffentlichen.
+Die Erstveröffentlichung ist abgeschlossen:
+
+- Das öffentliche Repository liegt unter `https://github.com/c5vcpq5gsr-alt/keyboard-manager-new`; seine öffentliche Historie enthält einen anonymisierten Initial-Commit und keine lokalen Build-, Release-, Backup- oder Finder-Dateien.
+- `main` schützt gegen Löschen und Force-Pushes, erzwingt lineare Historie und Gesprächsauflösung.
+- Das Tag `v1.0.0` veröffentlicht `Keyboard-Manager-1.0.0-universal.dmg` sowie die SHA-256-Datei unter `https://github.com/c5vcpq5gsr-alt/keyboard-manager-new/releases/tag/v1.0.0`.
+- Ein frischer GitHub-Download stimmt bytegenau mit der lokalen SHA-256 `6d4498f82d14a2bd331d5b433fe06d0a7f43f1d10599f2c9d126826987686e8e` überein und besteht erneut Signatur-, Staple-, Gatekeeper-, Container- und eingeschlossene-App-Prüfung als `source=Notarized Developer ID`.
+- GitHub CI ist für den Release-Stand grün. Der tagbasierte Release-Workflow überspringt die CI-Notarisierung erfolgreich, bis die dokumentierten Zertifikats- und App-Store-Connect-Secrets hinterlegt sind; die veröffentlichte Erstversion wurde lokal notariell gebaut und unabhängig remote verifiziert.
 
 Weitere Produktarbeit bleibt danach ausdrücklich möglich, insbesondere die protokollierte Bereinigung von Importwarnungen im Spotlight.
 
