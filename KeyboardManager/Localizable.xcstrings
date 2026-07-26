@@ -1,0 +1,3880 @@
+{
+  "sourceLanguage": "de",
+  "strings": {
+    "· %lld HEIC als JPEG kopiert": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "· %lld HEIC copied as JPEG"
+          }
+        }
+      }
+    },
+    "„%@“ hat keine gültige HTTPS-Bildantwort geliefert.": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "“%@” did not return a valid HTTPS image response."
+          }
+        }
+      }
+    },
+    "„%@“ konnte nicht als Bild gelesen werden.": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "“%@” could not be read as an image."
+          }
+        }
+      }
+    },
+    "„%@“ konnte nicht für die Mediathek aufbereitet werden.": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "“%@” could not be prepared for the media library."
+          }
+        }
+      }
+    },
+    "„%@“ überschreitet das Backup-Limit von 30 MiB.": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "“%@” exceeds the 30 MiB backup limit."
+          }
+        }
+      }
+    },
+    "„%@“ überschreitet das Limit von 30 MiB.": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "“%@” exceeds the 30 MiB limit."
+          }
+        }
+      }
+    },
+    "%@ · %lld Stück": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "%@ · %lld pieces"
+          }
+        }
+      }
+    },
+    "%@ erfassen": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Capture %@"
+          }
+        }
+      }
+    },
+    "%@ ohne Namen können nicht importiert werden.": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "%@ without a name cannot be imported."
+          }
+        }
+      }
+    },
+    "%@ wirklich löschen?": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Really delete %@?"
+          }
+        }
+      }
+    },
+    "%@-Bestandsbericht speichern": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Save %@ inventory report"
+          }
+        }
+      }
+    },
+    "%@-Bestandsbericht wird erstellt und kontrolliert …": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "%@ inventory report is being created and verified…"
+          }
+        }
+      }
+    },
+    "%@-Bibliothek": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "%@ library"
+          }
+        }
+      }
+    },
+    "%lld": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "%lld"
+          }
+        }
+      }
+    },
+    "%lld bekannte Kandidaten wurden geprüft. ZIP, JSON oder ein anderer Datenordner können weiterhin manuell gewählt werden.": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "%lld known candidates were checked. A ZIP, JSON, or another data folder can still be selected manually."
+          }
+        }
+      }
+    },
+    "%lld Einträge": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "%lld entries"
+          }
+        }
+      }
+    },
+    "%lld Einträge · %@": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "%lld entries · %@"
+          }
+        }
+      }
+    },
+    "%lld Einträge · Filter: %@": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "%lld entries · Filters: %@"
+          }
+        }
+      }
+    },
+    "%lld Fotos": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "%lld photos"
+          }
+        }
+      }
+    },
+    "%lld gesamt · %lld verfügbar": {
+      "localizations": {
+        "de": {
+          "stringUnit": {
+            "state": "new",
+            "value": "%1$lld gesamt · %2$lld verfügbar"
+          }
+        },
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "%lld total · %lld available"
+          }
+        }
+      }
+    },
+    "%lld Inventareinträge und %lld Fotos · SQLite-Integrität: %@": {
+      "localizations": {
+        "de": {
+          "stringUnit": {
+            "state": "new",
+            "value": "%1$lld Inventareinträge und %2$lld Fotos · SQLite-Integrität: %3$@"
+          }
+        },
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "%lld inventory entries and %lld photos · SQLite integrity: %@"
+          }
+        }
+      }
+    },
+    "%lld Quelle(n) bereit": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "%lld source(s) ready"
+          }
+        }
+      }
+    },
+    "%lld von %lld": {
+      "localizations": {
+        "de": {
+          "stringUnit": {
+            "state": "new",
+            "value": "%1$lld von %2$lld"
+          }
+        },
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "%lld of %lld"
+          }
+        }
+      }
+    },
+    "0 von %lld": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "0 of %lld"
+          }
+        }
+      }
+    },
+    "Abbrechen": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Cancel"
+          }
+        }
+      }
+    },
+    "Aktuelle Filter anwenden": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Apply current filters"
+          }
+        }
+      }
+    },
+    "Aktueller Inventartyp": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Current inventory type"
+          }
+        }
+      }
+    },
+    "Alle Pins": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "All pins"
+          }
+        }
+      }
+    },
+    "Allgemein": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "General"
+          }
+        }
+      }
+    },
+    "Als Hauptfoto": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Set as main photo"
+          }
+        }
+      }
+    },
+    "Älteres Vollbackup mit eingebetteten Fotos": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Older full backup with embedded photos"
+          }
+        }
+      }
+    },
+    "Andere V1-Quelle auswählen …": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Select another V1 source…"
+          }
+        }
+      }
+    },
+    "Änderungen verwerfen": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Discard changes"
+          }
+        }
+      }
+    },
+    "Änderungen verwerfen und schließen": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Discard changes and close"
+          }
+        }
+      }
+    },
+    "Angewendet": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Applied"
+          }
+        }
+      }
+    },
+    "Artisan": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Artisan"
+          }
+        }
+      }
+    },
+    "Artisans": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Artisans"
+          }
+        }
+      }
+    },
+    "Backup fehlgeschlagen: %@": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Backup failed: %@"
+          }
+        }
+      }
+    },
+    "Backup sichern": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Save backup"
+          }
+        }
+      }
+    },
+    "Basisdaten": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Basic data"
+          }
+        }
+      }
+    },
+    "Bearbeiten": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Edit"
+          }
+        }
+      }
+    },
+    "Bekannte App-Support-Orte werden ausschließlich lesend geprüft …": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Known Application Support locations are being checked read-only…"
+          }
+        }
+      }
+    },
+    "Bereich": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Section"
+          }
+        }
+      }
+    },
+    "Bereitschaft": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Readiness"
+          }
+        }
+      }
+    },
+    "Bericht fehlgeschlagen: %@": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Report failed: %@"
+          }
+        }
+      }
+    },
+    "Bericht sichern": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Save report"
+          }
+        }
+      }
+    },
+    "Bestand": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Inventory"
+          }
+        }
+      }
+    },
+    "Bestand durchsuchen": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Search inventory"
+          }
+        }
+      }
+    },
+    "Bestand exportieren …": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Export inventory…"
+          }
+        }
+      }
+    },
+    "Bestandsbericht": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Inventory report"
+          }
+        }
+      }
+    },
+    "Bestandsbericht exportieren": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Export inventory report"
+          }
+        }
+      }
+    },
+    "Bestandsübersicht": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Inventory overview"
+          }
+        }
+      }
+    },
+    "Betätigung": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Operating force"
+          }
+        }
+      }
+    },
+    "Betätigungskraft": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Operating force"
+          }
+        }
+      }
+    },
+    "Betroffen: %lld · %@": {
+      "localizations": {
+        "de": {
+          "stringUnit": {
+            "state": "new",
+            "value": "Betroffen: %1$lld · %2$@"
+          }
+        },
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Affected: %lld · %@"
+          }
+        }
+      }
+    },
+    "Bilddaten konnten nicht dekodiert werden: %@": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Image data could not be decoded: %@"
+          }
+        }
+      }
+    },
+    "Bitte den V1-Datenordner auswählen, der keyboard-manager.sqlite und photos/ enthält.": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Select the V1 data folder containing keyboard-manager.sqlite and photos/."
+          }
+        }
+      }
+    },
+    "Bitte ein V1-ZIP-Backup, ein Legacy-JSON-Backup oder den V1-Datenordner auswählen.": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Select a V1 ZIP backup, a legacy JSON backup, or the V1 data folder."
+          }
+        }
+      }
+    },
+    "Board": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Board"
+          }
+        }
+      }
+    },
+    "Boards referenzieren nicht vorhandene Keycap-Sets.": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Boards reference missing keycap sets."
+          }
+        }
+      }
+    },
+    "Boards referenzieren nicht vorhandene Switch-Sets.": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Boards reference missing switch sets."
+          }
+        }
+      }
+    },
+    "Bottom Housing": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Bottom housing"
+          }
+        }
+      }
+    },
+    "Bottom-out": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Bottom-out"
+          }
+        }
+      }
+    },
+    "CRC-Prüfung fehlgeschlagen: %@": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "CRC check failed: %@"
+          }
+        }
+      }
+    },
+    "Das Backup enthält mehr Einträge als erlaubt.": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "The backup contains more entries than allowed."
+          }
+        }
+      }
+    },
+    "Das Backup überschreitet das Limit von 500 MiB.": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "The backup exceeds the 500 MiB limit."
+          }
+        }
+      }
+    },
+    "Das Berichtsdokument konnte nicht erzeugt werden.": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "The report document could not be created."
+          }
+        }
+      }
+    },
+    "Das Bildformat von „%@“ wird nicht unterstützt.": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "The image format of “%@” is not supported."
+          }
+        }
+      }
+    },
+    "Das erzeugte Backup hat die Kontrollprüfung nicht bestanden: %@": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "The generated backup failed verification: %@"
+          }
+        }
+      }
+    },
+    "Das externe Importbild von „%@“ konnte nicht geladen werden.": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "The external imported image from “%@” could not be loaded."
+          }
+        }
+      }
+    },
+    "Das fertige ZIP überschreitet das Limit von 500 MiB.": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "The completed ZIP exceeds the 500 MiB limit."
+          }
+        }
+      }
+    },
+    "Das Foto „%@“ konnte nicht für den PDF-Bericht gelesen werden.": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "The photo “%@” could not be read for the PDF report."
+          }
+        }
+      }
+    },
+    "Das gewählte Backup-Ziel ist ungültig.": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "The selected backup destination is invalid."
+          }
+        }
+      }
+    },
+    "Das gewählte Berichtsziel ist ungültig.": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "The selected report destination is invalid."
+          }
+        }
+      }
+    },
+    "Das Hauptfoto gehört nicht zur Fotoliste dieses Eintrags.": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "The main photo does not belong to this entry's photo list."
+          }
+        }
+      }
+    },
+    "Das HEIC-Foto „%@“ konnte nicht kompatibel als JPEG exportiert werden.": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "The HEIC photo “%@” could not be exported compatibly as JPEG."
+          }
+        }
+      }
+    },
+    "Das Legacy-JSON ist nicht lesbar oder kein vollständiges V1-Backup.": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "The legacy JSON is unreadable or is not a complete V1 backup."
+          }
+        }
+      }
+    },
+    "Das Manifest ist kein Keyboard-Manager-ZIP-Backup.": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "The manifest is not a Keyboard Manager ZIP backup."
+          }
+        }
+      }
+    },
+    "Das Manifest überschreitet das Limit von 10 MiB.": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "The manifest exceeds the 10 MiB limit."
+          }
+        }
+      }
+    },
+    "Das PDF enthält keine lesbare Seite.": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "The PDF does not contain a readable page."
+          }
+        }
+      }
+    },
+    "Das PDF-Deckblatt konnte nicht gelesen werden.": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "The PDF cover page could not be read."
+          }
+        }
+      }
+    },
+    "Das V1-Manifest ist nicht lesbar oder unvollständig.": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "The V1 manifest is unreadable or incomplete."
+          }
+        }
+      }
+    },
+    "Das ZIP enthält kein manifest.json.": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "The ZIP does not contain manifest.json."
+          }
+        }
+      }
+    },
+    "Das ZIP-Archiv konnte nicht sicher geöffnet werden.": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "The ZIP archive could not be opened safely."
+          }
+        }
+      }
+    },
+    "Dateiname:": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "File name:"
+          }
+        }
+      }
+    },
+    "Daten": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Data"
+          }
+        }
+      }
+    },
+    "Datenbankdatei fehlt.": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "The database file is missing."
+          }
+        }
+      }
+    },
+    "Datenhaltung": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Data storage"
+          }
+        }
+      }
+    },
+    "Dekodierte Bildabmessungen weichen von V1-Metadaten ab.": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Decoded image dimensions differ from the V1 metadata."
+          }
+        }
+      }
+    },
+    "den hinterlegten Bildservern": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "the stored image servers"
+          }
+        }
+      }
+    },
+    "Der aktuelle Entwurf wurde noch nicht gespeichert.": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "The current draft has not been saved yet."
+          }
+        }
+      }
+    },
+    "Der aktuelle V2-Bestand wird zuerst vollständig in Backups verschoben. Danach wird der geprüfte Staging-Bestand aktiviert. Die V1-Quelle wird nicht verändert.": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "The current V2 inventory is first moved completely into backups. The verified staging inventory is then activated. The V1 source is not changed."
+          }
+        }
+      }
+    },
+    "Der bereitgestellte V2-Bestand hat die Abschlussprüfung nicht bestanden: %@": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "The prepared V2 inventory failed final verification: %@"
+          }
+        }
+      }
+    },
+    "Der Bericht enthält ungültige Daten: %@": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "The report contains invalid data: %@"
+          }
+        }
+      }
+    },
+    "Der Bericht überschreitet das Limit von 40.000 Zeilen.": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "The report exceeds the limit of 40,000 rows."
+          }
+        }
+      }
+    },
+    "Der Bestand überschreitet die vom Backupformat erlaubte Anzahl von Einträgen.": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "The inventory exceeds the number of entries allowed by the backup format."
+          }
+        }
+      }
+    },
+    "Der dekodierte Bildtyp weicht von V1 ab und wird anhand der Bilddaten normalisiert.": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "The decoded image type differs from V1 and is normalized based on the image data."
+          }
+        }
+      }
+    },
+    "Der Eintrag und seine verwalteten Fotos werden dauerhaft entfernt. Verknüpfungen werden konsistent gelöst.": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "The entry and its managed photos will be permanently removed. Links will be resolved consistently."
+          }
+        }
+      }
+    },
+    "Der Eintrag, seine Fotos und seine Beziehungen werden konsistent entfernt.": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "The entry, its photos, and its relationships will be removed consistently."
+          }
+        }
+      }
+    },
+    "Der Eintrag, seine verwalteten Fotos und seine Beziehungen werden konsistent entfernt.": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "The entry, its managed photos, and its relationships will be removed consistently."
+          }
+        }
+      }
+    },
+    "Der Gesamtbestand darf nicht negativ sein.": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "The total inventory cannot be negative."
+          }
+        }
+      }
+    },
+    "Der gespeicherte V2-Bestand ist nicht lesbar: %@": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "The saved V2 inventory is unreadable: %@"
+          }
+        }
+      }
+    },
+    "Der gewählte V1-Datenordner oder eine benötigte Quelle ist kein regulärer, sicher lesbarer Pfad.": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "The selected V1 data folder or a required source is not a regular, safely readable path."
+          }
+        }
+      }
+    },
+    "Der Import ist durch Fehler im Prüflauf blockiert.": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "The import is blocked by errors in the dry run."
+          }
+        }
+      }
+    },
+    "Der interne Foto-Stagingplan ist ungültig.": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "The internal photo staging plan is invalid."
+          }
+        }
+      }
+    },
+    "Der interne Fotodateiname „%@“ ist ungültig.": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "The internal photo file name “%@” is invalid."
+          }
+        }
+      }
+    },
+    "Der Name ist ein Pflichtfeld.": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "The name is required."
+          }
+        }
+      }
+    },
+    "Der V2-Bestand konnte nicht serialisiert werden: %@": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "The V2 inventory could not be serialized: %@"
+          }
+        }
+      }
+    },
+    "Der vorhandene V2-Datenordner ist kein reguläres Verzeichnis.": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "The existing V2 data folder is not a regular directory."
+          }
+        }
+      }
+    },
+    "Der vorherige V2-Bestand wurde als Backup erhalten.": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "The previous V2 inventory was preserved as a backup."
+          }
+        }
+      }
+    },
+    "Der vorherige V2-Bestand wurde nicht verändert oder automatisch wiederhergestellt.": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "The previous V2 inventory was not changed or was restored automatically."
+          }
+        }
+      }
+    },
+    "Der zu bearbeitende Eintrag wurde nicht gefunden.": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "The entry to edit was not found."
+          }
+        }
+      }
+    },
+    "Details": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Details"
+          }
+        }
+      }
+    },
+    "Details zu %@ öffnen": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Open details for %@"
+          }
+        }
+      }
+    },
+    "Deutsch": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "German"
+          }
+        }
+      }
+    },
+    "Die ausgewählte Quelle ist keine reguläre Backup-Datei.": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "The selected source is not a regular backup file."
+          }
+        }
+      }
+    },
+    "Die Bestandsdaten überschreiten das Manifest-Limit von 10 MiB.": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "The inventory data exceeds the 10 MiB manifest limit."
+          }
+        }
+      }
+    },
+    "Die direkte V1-Datenbank wurde ausschließlich lesend in einen konsistenten V2-Staging-Snapshot überführt.": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "The direct V1 database was transferred read-only into a consistent V2 staging snapshot."
+          }
+        }
+      }
+    },
+    "Die entpackten Fotodaten überschreiten das Limit von 500 MiB.": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "The extracted photo data exceeds the 500 MiB limit."
+          }
+        }
+      }
+    },
+    "Die erzeugte Datei ist leer.": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "The generated file is empty."
+          }
+        }
+      }
+    },
+    "Die Excel-Datei ist kein lesbares ZIP-Paket.": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "The Excel file is not a readable ZIP package."
+          }
+        }
+      }
+    },
+    "Die Fotodaten überschreiten das Backup-Limit von 500 MiB.": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "The photo data exceeds the 500 MiB backup limit."
+          }
+        }
+      }
+    },
+    "Die interne ID „%@“ ist nicht mit dem V1-Backupformat kompatibel.": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "The internal ID “%@” is not compatible with the V1 backup format."
+          }
+        }
+      }
+    },
+    "Die Kontrollprüfung des Berichts ist fehlgeschlagen: %@": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Report verification failed: %@"
+          }
+        }
+      }
+    },
+    "Die kopierte V1-Datenbank hat die Integritätsprüfung nicht bestanden: %@": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "The copied V1 database failed integrity verification: %@"
+          }
+        }
+      }
+    },
+    "Die Sprachauswahl konnte nicht gespeichert werden: %@": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "The language selection could not be saved: %@"
+          }
+        }
+      }
+    },
+    "Die SQLite-Integritätsprüfung ist fehlgeschlagen: %@": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "SQLite integrity verification failed: %@"
+          }
+        }
+      }
+    },
+    "Die Tabellenzeilen passen nicht zu ihren Spalten.": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "The table rows do not match their columns."
+          }
+        }
+      }
+    },
+    "Die URL „%@“ muss eine vollständige HTTPS-Adresse sein.": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "The URL “%@” must be a complete HTTPS address."
+          }
+        }
+      }
+    },
+    "Die V1-App-Metadaten sind nicht lesbar.": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "The V1 app metadata is unreadable."
+          }
+        }
+      }
+    },
+    "Die V1-Datenbank besitzt nicht das erwartete Schema: %@": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "The V1 database does not have the expected schema: %@"
+          }
+        }
+      }
+    },
+    "Die V1-Datenbank einschließlich WAL überschreitet das Limit von 100 MiB.": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "The V1 database including its WAL exceeds the 100 MiB limit."
+          }
+        }
+      }
+    },
+    "Die V1-Datenbank konnte nicht ausschließlich lesend geöffnet werden: %@": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "The V1 database could not be opened read-only: %@"
+          }
+        }
+      }
+    },
+    "Die V1-Datenbank konnte nicht konsistent in V2-Staging kopiert werden: %@. Bitte V1 vollständig beenden und erneut versuchen.": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "The V1 database could not be copied consistently into V2 staging: %@. Quit V1 completely and try again."
+          }
+        }
+      }
+    },
+    "Die V1-Datenbank referenziert Fotos, aber der Ordner photos/ fehlt.": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "The V1 database references photos, but the photos/ folder is missing."
+          }
+        }
+      }
+    },
+    "Die V1-Fotodatei %@ überschreitet das Limit von 30 MiB.": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "The V1 photo file %@ exceeds the 30 MiB limit."
+          }
+        }
+      }
+    },
+    "Die V1-Fotodaten überschreiten das Limit von 500 MiB.": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "The V1 photo data exceeds the 500 MiB limit."
+          }
+        }
+      }
+    },
+    "Die V1-Quelle hat sich seit dem Prüflauf verändert. Bitte erneut prüfen.": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "The V1 source has changed since the dry run. Please check it again."
+          }
+        }
+      }
+    },
+    "Die V2-Datenbank konnte nicht geöffnet werden: %@": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "The V2 database could not be opened: %@"
+          }
+        }
+      }
+    },
+    "Die V2-Datenbankoperation ist fehlgeschlagen: %@": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "The V2 database operation failed: %@"
+          }
+        }
+      }
+    },
+    "Die verknüpfte Position „%@“ existiert nicht mehr.": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "The linked item “%@” no longer exists."
+          }
+        }
+      }
+    },
+    "Die verwaltete Fotodatei „%@“ fehlt.": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "The managed photo file “%@” is missing."
+          }
+        }
+      }
+    },
+    "Diese importierten Bildadressen werden nicht automatisch aufgerufen.": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "These imported image addresses are not contacted automatically."
+          }
+        }
+      }
+    },
+    "Doppelte ID bei %@.": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Duplicate ID for %@."
+          }
+        }
+      }
+    },
+    "Doppelte Switch-/Board-Installationen wurden zusammengeführt.": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Duplicate switch/board installations were merged."
+          }
+        }
+      }
+    },
+    "Doppelter ZIP-Eintrag: %@": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Duplicate ZIP entry: %@"
+          }
+        }
+      }
+    },
+    "Editoränderung": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Editor change"
+          }
+        }
+      }
+    },
+    "Ein älteres V1-ZIP-Schema wird kontrolliert auf das aktuelle V2-Modell normalisiert.": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "An older V1 ZIP schema is safely normalized to the current V2 model."
+          }
+        }
+      }
+    },
+    "Ein Datensatz in %@ ist nicht lesbar oder seine ID stimmt nicht mit dem JSON-Inhalt überein.": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "A record in %@ is unreadable or its ID does not match the JSON content."
+          }
+        }
+      }
+    },
+    "Ein hinzugefügtes Foto kann als Hauptfoto markiert werden.": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "An added photo can be set as the main photo."
+          }
+        }
+      }
+    },
+    "Ein interner Fotodateiname war ungültig.": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "An internal photo file name was invalid."
+          }
+        }
+      }
+    },
+    "Eine Berichtstabelle überschreitet das Limit von 32 Spalten.": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "A report table exceeds the limit of 32 columns."
+          }
+        }
+      }
+    },
+    "Eine V1-Fotodatei fehlt oder besitzt einen unsicheren Dateinamen: %@": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "A V1 photo file is missing or has an unsafe file name: %@"
+          }
+        }
+      }
+    },
+    "Eingebettete Bilddaten sind ungültig oder zu groß: %@": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Embedded image data is invalid or too large: %@"
+          }
+        }
+      }
+    },
+    "Eingebettete Legacy-Fotos werden vor dem Import in getrennte, geprüfte Dateien überführt.": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Embedded legacy photos are converted to separate, verified files before import."
+          }
+        }
+      }
+    },
+    "Eintrag nicht mehr verfügbar": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Entry no longer available"
+          }
+        }
+      }
+    },
+    "Eintrag wirklich löschen?": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Really delete entry?"
+          }
+        }
+      }
+    },
+    "Einträge": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Entries"
+          }
+        }
+      }
+    },
+    "English": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "English"
+          }
+        }
+      }
+    },
+    "Erfasse einen Eintrag mit Foto oder importiere deinen V1-Bestand.": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Capture an entry with a photo or import your V1 inventory."
+          }
+        }
+      }
+    },
+    "Erfasse einen neuen Eintrag oder importiere den V1-Bestand.": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Capture a new entry or import the V1 inventory."
+          }
+        }
+      }
+    },
+    "Erfassen": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Capture"
+          }
+        }
+      }
+    },
+    "Erkannter Bestand": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Detected inventory"
+          }
+        }
+      }
+    },
+    "Erneut suchen": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Search again"
+          }
+        }
+      }
+    },
+    "Erstellt": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Created"
+          }
+        }
+      }
+    },
+    "Erstellt einen eigenständigen, kontrollierten Bericht aus dem aktuellen V2-Bestand.": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Creates a standalone, verified report from the current V2 inventory."
+          }
+        }
+      }
+    },
+    "Erstellt einen geprüften V2-Bestand; V1 bleibt unverändert": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Creates a verified V2 inventory; V1 remains unchanged"
+          }
+        }
+      }
+    },
+    "Es müssen ein bis vier Bereiche enthalten sein.": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "One to four sections must be included."
+          }
+        }
+      }
+    },
+    "Excel enthält eine Übersicht und je Bereich ein filterbares Tabellenblatt.": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Excel contains a summary and one filterable worksheet per section."
+          }
+        }
+      }
+    },
+    "Explizite Switch-Installationen gewinnen bei widersprüchlichen Board-Mengen.": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Explicit switch installations take precedence when board quantities conflict."
+          }
+        }
+      }
+    },
+    "Externe Importbilder": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "External imported images"
+          }
+        }
+      }
+    },
+    "Externe Importbilder – werden nicht automatisch geladen": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "External imported images — not loaded automatically"
+          }
+        }
+      }
+    },
+    "Externe Importbilder lokal übernehmen?": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Import external images locally?"
+          }
+        }
+      }
+    },
+    "Externe Importbilder müssen vollständige HTTPS-Adressen ohne Zugangsdaten verwenden.": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "External imported images must use complete HTTPS addresses without credentials."
+          }
+        }
+      }
+    },
+    "Externes Importbild": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "External imported image"
+          }
+        }
+      }
+    },
+    "Federlänge": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Spring length"
+          }
+        }
+      }
+    },
+    "Federtyp": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Spring type"
+          }
+        }
+      }
+    },
+    "Fenster mit ungespeicherten Änderungen schließen?": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Close window with unsaved changes?"
+          }
+        }
+      }
+    },
+    "Filter": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Filters"
+          }
+        }
+      }
+    },
+    "Filter zurücksetzen": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Reset filters"
+          }
+        }
+      }
+    },
+    "Format": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Format"
+          }
+        }
+      }
+    },
+    "Format: %@": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Format: %@"
+          }
+        }
+      }
+    },
+    "Foto": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Photo"
+          }
+        }
+      }
+    },
+    "Foto %@": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Photo %@"
+          }
+        }
+      }
+    },
+    "Fotoimport fehlgeschlagen": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Photo import failed"
+          }
+        }
+      }
+    },
+    "Fotos": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Photos"
+          }
+        }
+      }
+    },
+    "Fotos besitzen keinen gültigen Inventar-Eigentümer.": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Photos do not have a valid inventory owner."
+          }
+        }
+      }
+    },
+    "Fotos hinzufügen …": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Add photos…"
+          }
+        }
+      }
+    },
+    "Fotos konnten nicht sicher bereitgestellt werden: %@": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Photos could not be prepared safely: %@"
+          }
+        }
+      }
+    },
+    "Für „%@“ wären %lld von %lld Switches verbaut.": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "For “%@”, %lld of %lld switches would be installed."
+          }
+        }
+      }
+    },
+    "Galerie": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Gallery"
+          }
+        }
+      }
+    },
+    "Galerie durchsuchen": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Search gallery"
+          }
+        }
+      }
+    },
+    "Geändert": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Changed"
+          }
+        }
+      }
+    },
+    "Gefundene V1-Quelle prüfen": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Check detected V1 source"
+          }
+        }
+      }
+    },
+    "Gesamt": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Total"
+          }
+        }
+      }
+    },
+    "Gesamtbestand": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Complete inventory"
+          }
+        }
+      }
+    },
+    "Gesamter Bestand": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Complete inventory"
+          }
+        }
+      }
+    },
+    "Gesamtweg": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Total travel"
+          }
+        }
+      }
+    },
+    "Hauptfoto": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Main photo"
+          }
+        }
+      }
+    },
+    "Hauptfotos gehören nicht zur Fotoliste ihres Eintrags.": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Main photos do not belong to their item's photo list."
+          }
+        }
+      }
+    },
+    "Hersteller": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Manufacturer"
+          }
+        }
+      }
+    },
+    "Hersteller: %@": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Manufacturer: %@"
+          }
+        }
+      }
+    },
+    "Herunterladen und lokal übernehmen": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Download and import locally"
+          }
+        }
+      }
+    },
+    "HTTPS-Quelladresse": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "HTTPS source address"
+          }
+        }
+      }
+    },
+    "Im Excel-Paket fehlen Pflichtdateien.": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Required files are missing from the Excel package."
+          }
+        }
+      }
+    },
+    "Im gewählten Ordner fehlt keyboard-manager.sqlite.": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "keyboard-manager.sqlite is missing from the selected folder."
+          }
+        }
+      }
+    },
+    "Im ZIP fehlt eine referenzierte Fotodatei: %@": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "A referenced photo file is missing from the ZIP: %@"
+          }
+        }
+      }
+    },
+    "Import in V2 übernehmen …": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Import into V2…"
+          }
+        }
+      }
+    },
+    "Importbilder herunterladen und lokal übernehmen …": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Download and import images locally…"
+          }
+        }
+      }
+    },
+    "Importbilder werden geladen …": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Imported images are loading…"
+          }
+        }
+      }
+    },
+    "IndexedDB/localStorage-Export": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "IndexedDB/localStorage export"
+          }
+        }
+      }
+    },
+    "Installationen": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Installations"
+          }
+        }
+      }
+    },
+    "Installationsmengen dürfen nicht negativ sein.": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Installation quantities cannot be negative."
+          }
+        }
+      }
+    },
+    "Installierte V1": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Installed V1"
+          }
+        }
+      }
+    },
+    "Installierte V1-Datenbank": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Installed V1 database"
+          }
+        }
+      }
+    },
+    "Inventareinträge referenzieren nicht vorhandene Fotos.": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Inventory items reference missing photos."
+          }
+        }
+      }
+    },
+    "Inventartyp": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Inventory type"
+          }
+        }
+      }
+    },
+    "Ja": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Yes"
+          }
+        }
+      }
+    },
+    "JPEG, PNG, GIF, WebP und HEIC; maximal 30 MiB. Große Bilder werden auf höchstens 1920 × 1080 Pixel skaliert.": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "JPEG, PNG, GIF, WebP, and HEIC; maximum 30 MiB. Large images are scaled to at most 1920 × 1080 pixels."
+          }
+        }
+      }
+    },
+    "JSON-Schema %lld ist kein unterstütztes Legacy-Backup.": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "JSON schema %lld is not a supported legacy backup."
+          }
+        }
+      }
+    },
+    "Kein Foto": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "No photo"
+          }
+        }
+      }
+    },
+    "Kein Hauptfoto": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "No main photo"
+          }
+        }
+      }
+    },
+    "Keine aktiven Filter": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "No active filters"
+          }
+        }
+      }
+    },
+    "Keine Änderungen": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "No changes"
+          }
+        }
+      }
+    },
+    "Keine eindeutige V1-SQLite-Quelle gefunden": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "No unambiguous V1 SQLite source found"
+          }
+        }
+      }
+    },
+    "Keine Einträge in diesem Bereich.": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "No entries in this section."
+          }
+        }
+      }
+    },
+    "Keine Treffer": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "No matches"
+          }
+        }
+      }
+    },
+    "Keyboard": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Keyboard"
+          }
+        }
+      }
+    },
+    "Keyboard Manager": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Keyboard Manager"
+          }
+        }
+      }
+    },
+    "Keyboard Manager Bestand": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Keyboard Manager inventory"
+          }
+        }
+      }
+    },
+    "Keyboard Manager Hauptfenster": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Keyboard Manager main window"
+          }
+        }
+      }
+    },
+    "Keyboard Manager V1 ist noch geöffnet. Bitte V1 vollständig beenden und die Suche erneut ausführen.": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Keyboard Manager V1 is still open. Quit V1 completely and search again."
+          }
+        }
+      }
+    },
+    "Keyboards": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Keyboards"
+          }
+        }
+      }
+    },
+    "Keycap-Set": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Keycap set"
+          }
+        }
+      }
+    },
+    "Keycap-Sets": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Keycap sets"
+          }
+        }
+      }
+    },
+    "Keycaps": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Keycaps"
+          }
+        }
+      }
+    },
+    "Kits": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Kits"
+          }
+        }
+      }
+    },
+    "Kits, durch Komma getrennt": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Kits, separated by commas"
+          }
+        }
+      }
+    },
+    "Komponenten": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Components"
+          }
+        }
+      }
+    },
+    "Komponenten referenzieren nicht vorhandene Boards.": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Components reference missing boards."
+          }
+        }
+      }
+    },
+    "Kraft: %@": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Force: %@"
+          }
+        }
+      }
+    },
+    "LED-Diffusor": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "LED diffuser"
+          }
+        }
+      }
+    },
+    "Legacy-JSON-Backup": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Legacy JSON backup"
+          }
+        }
+      }
+    },
+    "Letzte Datenbankänderung: %@": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Last database change: %@"
+          }
+        }
+      }
+    },
+    "Lokale Fotos": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Local photos"
+          }
+        }
+      }
+    },
+    "Löschen": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Delete"
+          }
+        }
+      }
+    },
+    "Material": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Material"
+          }
+        }
+      }
+    },
+    "Materialien": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Materials"
+          }
+        }
+      }
+    },
+    "Menge absteigend": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Quantity descending"
+          }
+        }
+      }
+    },
+    "Metadaten, Beziehungen, Prüfsummen und Bilddaten werden validiert …": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Metadata, relationships, checksums, and image data are being validated…"
+          }
+        }
+      }
+    },
+    "Migration abgeschlossen": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Migration complete"
+          }
+        }
+      }
+    },
+    "Migration blockiert": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Migration blocked"
+          }
+        }
+      }
+    },
+    "Migration fehlgeschlagen": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Migration failed"
+          }
+        }
+      }
+    },
+    "Migrationshinweise": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Migration notes"
+          }
+        }
+      }
+    },
+    "Migrationsmodus": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Migration mode"
+          }
+        }
+      }
+    },
+    "Montage": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Mounting"
+          }
+        }
+      }
+    },
+    "Nach Beenden erneut suchen": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Search again after quitting"
+          }
+        }
+      }
+    },
+    "Nächster Eintrag": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Next entry"
+          }
+        }
+      }
+    },
+    "Name": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Name"
+          }
+        }
+      }
+    },
+    "Name, Pflichtfeld": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Name, required"
+          }
+        }
+      }
+    },
+    "Native V2": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Native V2"
+          }
+        }
+      }
+    },
+    "Nein": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "No"
+          }
+        }
+      }
+    },
+    "Neu": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "New"
+          }
+        }
+      }
+    },
+    "Neuer Eintrag": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "New entry"
+          }
+        }
+      }
+    },
+    "Neues Board": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "New board"
+          }
+        }
+      }
+    },
+    "Nicht alle Tabellenblätter wurden geschrieben.": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Not all worksheets were written."
+          }
+        }
+      }
+    },
+    "Nicht angewendet": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Not applied"
+          }
+        }
+      }
+    },
+    "Nicht montiert": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Not mounted"
+          }
+        }
+      }
+    },
+    "Nicht unterstützter Fototyp: %@": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Unsupported photo type: %@"
+          }
+        }
+      }
+    },
+    "Nicht zugeordnet": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Unassigned"
+          }
+        }
+      }
+    },
+    "Nicht-HTTPS- oder ungültige externe URLs werden nicht übernommen.": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Non-HTTPS or invalid external URLs are not imported."
+          }
+        }
+      }
+    },
+    "Noch keine %@": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "No %@ yet"
+          }
+        }
+      }
+    },
+    "Noch keine Boards vorhanden.": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "No boards yet."
+          }
+        }
+      }
+    },
+    "Noch keine lokalen Fotos.": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "No local photos yet."
+          }
+        }
+      }
+    },
+    "Noch keine Quelle ausgewählt": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "No source selected yet"
+          }
+        }
+      }
+    },
+    "Noch keine Switch-Sets vorhanden.": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "No switch sets yet."
+          }
+        }
+      }
+    },
+    "Notizen": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Notes"
+          }
+        }
+      }
+    },
+    "Nur lesen": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Read only"
+          }
+        }
+      }
+    },
+    "Nur lesende V1-Quelle": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Read-only V1 source"
+          }
+        }
+      }
+    },
+    "Öffnet die Großansicht": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Opens the large view"
+          }
+        }
+      }
+    },
+    "OK": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "OK"
+          }
+        }
+      }
+    },
+    "Passe Suche oder Filter an.": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Adjust the search or filters."
+          }
+        }
+      }
+    },
+    "PCB": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "PCB"
+          }
+        }
+      }
+    },
+    "PCB: %@": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "PCB: %@"
+          }
+        }
+      }
+    },
+    "PDF enthält ein Deckblatt, wiederholte Tabellenköpfe und Seitenzahlen.": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "PDF contains a cover page, repeated table headers, and page numbers."
+          }
+        }
+      }
+    },
+    "PDF-Signatur fehlt.": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "The PDF signature is missing."
+          }
+        }
+      }
+    },
+    "Pins": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Pins"
+          }
+        }
+      }
+    },
+    "Pins: %@": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Pins: %@"
+          }
+        }
+      }
+    },
+    "Plate": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Plate"
+          }
+        }
+      }
+    },
+    "Plate: %@": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Plate: %@"
+          }
+        }
+      }
+    },
+    "Pre-Travel": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Pre-travel"
+          }
+        }
+      }
+    },
+    "Probe, Validierung, Vorschau und explizite Bestätigung gehen jedem späteren Commit voraus.": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Dry run, validation, preview, and explicit confirmation precede every later commit."
+          }
+        }
+      }
+    },
+    "Profil": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Profile"
+          }
+        }
+      }
+    },
+    "Profil: %@": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Profile: %@"
+          }
+        }
+      }
+    },
+    "Prüfergebnis": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Check result"
+          }
+        }
+      }
+    },
+    "Prüflauf": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Dry run"
+          }
+        }
+      }
+    },
+    "Prüfung fehlgeschlagen": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Check failed"
+          }
+        }
+      }
+    },
+    "Quell-URL": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Source URL"
+          }
+        }
+      }
+    },
+    "Quelle": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Source"
+          }
+        }
+      }
+    },
+    "Quelle enthält blockierende Fehler": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Source contains blocking errors"
+          }
+        }
+      }
+    },
+    "Quelle im Browser öffnen": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Open source in browser"
+          }
+        }
+      }
+    },
+    "Quelle ist für den Import bereit": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Source is ready for import"
+          }
+        }
+      }
+    },
+    "Quelle wird fixiert, Fotos werden kopiert und SQLite wird geprüft …": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Source is being fixed, photos are being copied, and SQLite is being checked…"
+          }
+        }
+      }
+    },
+    "Restparität": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Remaining parity"
+          }
+        }
+      }
+    },
+    "Rückgängig": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Undo"
+          }
+        }
+      }
+    },
+    "Sammlung": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Collection"
+          }
+        }
+      }
+    },
+    "Schließen": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Close"
+          }
+        }
+      }
+    },
+    "Seite %lld": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Page %lld"
+          }
+        }
+      }
+    },
+    "Set-Inhalt": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Set contents"
+          }
+        }
+      }
+    },
+    "Shop": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Shop"
+          }
+        }
+      }
+    },
+    "Simulierter Aktivierungsfehler.": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Simulated activation failure."
+          }
+        }
+      }
+    },
+    "Snapshot enthält keine Daten.": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "The snapshot does not contain any data."
+          }
+        }
+      }
+    },
+    "Sonderpfad für sehr alte Installationen": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Special path for very old installations"
+          }
+        }
+      }
+    },
+    "Sortierung": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Sort"
+          }
+        }
+      }
+    },
+    "Speichern": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Save"
+          }
+        }
+      }
+    },
+    "Sprache": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Language"
+          }
+        }
+      }
+    },
+    "SQLite · lokal": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "SQLite · local"
+          }
+        }
+      }
+    },
+    "SQLite-Fehler %lld": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "SQLite error %lld"
+          }
+        }
+      }
+    },
+    "SQLite-Rückleseprobe weicht ab.": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "The SQLite read-back check differs."
+          }
+        }
+      }
+    },
+    "Stabilisatoren": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Stabilizers"
+          }
+        }
+      }
+    },
+    "Status": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Status"
+          }
+        }
+      }
+    },
+    "Status: %@": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Status: %@"
+          }
+        }
+      }
+    },
+    "Stem": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Stem"
+          }
+        }
+      }
+    },
+    "Suche: %@": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Search: %@"
+          }
+        }
+      }
+    },
+    "Switch": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Switch"
+          }
+        }
+      }
+    },
+    "Switch-Installationen werden als kanonische Beziehung übernommen, obwohl die Board-Rückseite fehlt.": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Switch installations are imported as the canonical relationship even though the board backlink is missing."
+          }
+        }
+      }
+    },
+    "Switches": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Switches"
+          }
+        }
+      }
+    },
+    "Systemdarstellung verwenden": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Use system appearance"
+          }
+        }
+      }
+    },
+    "Tags": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Tags"
+          }
+        }
+      }
+    },
+    "Tags, durch Komma getrennt": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Tags, separated by commas"
+          }
+        }
+      }
+    },
+    "Top Housing": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Top housing"
+          }
+        }
+      }
+    },
+    "Typ": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Type"
+          }
+        }
+      }
+    },
+    "Typ: %@": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Type: %@"
+          }
+        }
+      }
+    },
+    "Übersicht": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Overview"
+          }
+        }
+      }
+    },
+    "Übersicht des exportierten Bestands": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Summary of the exported inventory"
+          }
+        }
+      }
+    },
+    "Umfang": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Scope"
+          }
+        }
+      }
+    },
+    "Ungespeicherte Änderungen": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Unsaved changes"
+          }
+        }
+      }
+    },
+    "Ungespeicherte Änderungen verwerfen?": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Discard unsaved changes?"
+          }
+        }
+      }
+    },
+    "Ungültige oder fehlende ID bei %@.": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Invalid or missing ID for %@."
+          }
+        }
+      }
+    },
+    "Unsicherer oder unerwarteter ZIP-Eintrag: %@": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Unsafe or unexpected ZIP entry: %@"
+          }
+        }
+      }
+    },
+    "Unterstützte Quellen": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Supported sources"
+          }
+        }
+      }
+    },
+    "V1-Bestand in V2 übernehmen?": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Import V1 inventory into V2?"
+          }
+        }
+      }
+    },
+    "V1-Importhinweise werden zur späteren Prüfung erhalten.": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "V1 import warnings are preserved for later review."
+          }
+        }
+      }
+    },
+    "V1-kompatibles ZIP-Backup erstellen": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Create V1-compatible ZIP backup"
+          }
+        }
+      }
+    },
+    "V1-Migration": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "V1 migration"
+          }
+        }
+      }
+    },
+    "V1-Migration öffnen": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Open V1 migration"
+          }
+        }
+      }
+    },
+    "V1-Quelle": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "V1 source"
+          }
+        }
+      }
+    },
+    "V1-Quelle auswählen …": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Select V1 source…"
+          }
+        }
+      }
+    },
+    "V1-Quelle prüfen …": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Check V1 source…"
+          }
+        }
+      }
+    },
+    "V1-Quelle wird geprüft": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "V1 source is being checked"
+          }
+        }
+      }
+    },
+    "V1-Schema 3–6 mit Manifest und separaten Fotos": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "V1 schema 3–6 with manifest and separate photos"
+          }
+        }
+      }
+    },
+    "V1-ZIP-Backup (empfohlen)": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "V1 ZIP backup (recommended)"
+          }
+        }
+      }
+    },
+    "V2 fixiert die Quelle zunächst in einem eigenen Staging-Bereich, prüft Hash, Fotos und SQLite erneut und aktiviert den Bestand erst nach erfolgreicher Abschlussprüfung. V1 bleibt unverändert.": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "V2 first fixes the source in a dedicated staging area, checks the hash, photos, and SQLite again, and activates the inventory only after successful final verification. V1 remains unchanged."
+          }
+        }
+      }
+    },
+    "V2-Bestand erstellen": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Create V2 inventory"
+          }
+        }
+      }
+    },
+    "V2-Bestand wird aufgebaut": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "V2 inventory is being built"
+          }
+        }
+      }
+    },
+    "V2-Bestand wurde erfolgreich aktiviert": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "V2 inventory was activated successfully"
+          }
+        }
+      }
+    },
+    "Validierungshinweise": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Validation notes"
+          }
+        }
+      }
+    },
+    "Verbaut": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Installed"
+          }
+        }
+      }
+    },
+    "Verbaut (%lld) darf den Gesamtbestand (%lld) nicht überschreiten.": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Installed (%lld) cannot exceed total inventory (%lld)."
+          }
+        }
+      }
+    },
+    "Verfügbar": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Available"
+          }
+        }
+      }
+    },
+    "von %lld": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "of %lld"
+          }
+        }
+      }
+    },
+    "Vorhandenen V2-Bestand sichern und ersetzen": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Back up and replace existing V2 inventory"
+          }
+        }
+      }
+    },
+    "Vorhandenen Wert auswählen; freie Eingabe bleibt möglich.": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Select an existing value; free-form input remains available."
+          }
+        }
+      }
+    },
+    "Vorheriger Eintrag": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Previous entry"
+          }
+        }
+      }
+    },
+    "Vorschaubilder einbetten": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Embed preview images"
+          }
+        }
+      }
+    },
+    "Wähle ein V1-ZIP (Schema 3–6), ein älteres JSON-Vollbackup oder den V1-Datenordner mit keyboard-manager.sqlite und photos/. Beende V1 vor einer direkten SQLite-Prüfung. Die Quelle bleibt unverändert.": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Select a V1 ZIP (schema 3–6), an older full JSON backup, or the V1 data folder containing keyboard-manager.sqlite and photos/. Quit V1 before a direct SQLite check. The source remains unchanged."
+          }
+        }
+      }
+    },
+    "Wege und Kräfte": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Travel and forces"
+          }
+        }
+      }
+    },
+    "Weiter …": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Continue…"
+          }
+        }
+      }
+    },
+    "Weiter bearbeiten": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Keep editing"
+          }
+        }
+      }
+    },
+    "Werkseitig geschmiert": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Factory lubed"
+          }
+        }
+      }
+    },
+    "Wird gespeichert …": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Saving…"
+          }
+        }
+      }
+    },
+    "ZIP-Backup": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "ZIP backup"
+          }
+        }
+      }
+    },
+    "ZIP-Backup speichern": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Save ZIP backup"
+          }
+        }
+      }
+    },
+    "ZIP-Backup wird erstellt und kontrolliert …": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "ZIP backup is being created and verified…"
+          }
+        }
+      }
+    },
+    "ZIP-Backup-Schema %lld wird nicht unterstützt; erwartet wird Schema 3 bis 6.": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "ZIP backup schema %lld is not supported; schema 3 through 6 is expected."
+          }
+        }
+      }
+    },
+    "ZIP-Eintrag überschreitet sein Größenlimit: %@": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "ZIP entry exceeds its size limit: %@"
+          }
+        }
+      }
+    },
+    "Alles auswählen": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Select All"
+          }
+        }
+      }
+    },
+    "Ausschneiden": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Cut"
+          }
+        }
+      }
+    },
+    "Einfügen": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Paste"
+          }
+        }
+      }
+    },
+    "Kopieren": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Copy"
+          }
+        }
+      }
+    },
+    "Name kopieren": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Copy Name"
+          }
+        }
+      }
+    },
+    "Wiederholen": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Redo"
+          }
+        }
+      }
+    },
+    "Zuletzt geändert": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Last changed"
+          }
+        }
+      }
+    },
+    "Zum lokalen Übernehmen bearbeiten": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Edit to import locally"
+          }
+        }
+      }
+    },
+    "Zusatz": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Additional"
+          }
+        }
+      }
+    }
+  },
+  "version": "1.0"
+}

@@ -1,0 +1,10 @@
+.DS_Store
+.build/
+DerivedData/
+dist/
+.release/
+/keyboard-manager-backup.zip
+*.xcuserstate
+xcuserdata/
+*.xccheckout
+*.xcscmblueprint

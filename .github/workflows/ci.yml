@@ -1,0 +1,28 @@
+name: Test
+
+on:
+  push:
+    branches: [main]
+  pull_request:
+
+permissions:
+  contents: read
+
+jobs:
+  unit-tests:
+    runs-on: macos-15
+    steps:
+      - uses: actions/checkout@v4
+      - name: Run deterministic unit and integration tests
+        run: >-
+          xcodebuild test -quiet
+          -project KeyboardManager.xcodeproj
+          -scheme KeyboardManager
+          -configuration Debug
+          -destination 'platform=macOS,arch=arm64'
+          -derivedDataPath "$RUNNER_TEMP/DerivedData"
+          -only-testing:KeyboardManagerTests
+          CODE_SIGNING_ALLOWED=NO
+
+      # UI tests intentionally do not run here. They launch an app runner and
+      # require an unlocked interactive macOS session with local signing.

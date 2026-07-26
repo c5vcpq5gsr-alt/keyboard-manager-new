@@ -1,0 +1,798 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		000000000000000000000001 /* KeyboardManagerApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 100000000000000000000001 /* KeyboardManagerApp.swift */; };
+		000000000000000000000002 /* CoreTypes.swift in Sources */ = {isa = PBXBuildFile; fileRef = 100000000000000000000002 /* CoreTypes.swift */; };
+		000000000000000000000003 /* Board.swift in Sources */ = {isa = PBXBuildFile; fileRef = 100000000000000000000003 /* Board.swift */; };
+		000000000000000000000004 /* ComponentModels.swift in Sources */ = {isa = PBXBuildFile; fileRef = 100000000000000000000004 /* ComponentModels.swift */; };
+		000000000000000000000005 /* PhotoRecord.swift in Sources */ = {isa = PBXBuildFile; fileRef = 100000000000000000000005 /* PhotoRecord.swift */; };
+		000000000000000000000006 /* InventorySnapshot.swift in Sources */ = {isa = PBXBuildFile; fileRef = 100000000000000000000006 /* InventorySnapshot.swift */; };
+		000000000000000000000007 /* InventoryStore.swift in Sources */ = {isa = PBXBuildFile; fileRef = 100000000000000000000007 /* InventoryStore.swift */; };
+		000000000000000000000008 /* InventoryRepository.swift in Sources */ = {isa = PBXBuildFile; fileRef = 100000000000000000000008 /* InventoryRepository.swift */; };
+		000000000000000000000009 /* V1MigrationService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 100000000000000000000009 /* V1MigrationService.swift */; };
+		00000000000000000000000A /* AppRoute.swift in Sources */ = {isa = PBXBuildFile; fileRef = 10000000000000000000000A /* AppRoute.swift */; };
+		00000000000000000000000B /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 10000000000000000000000B /* ContentView.swift */; };
+		00000000000000000000000C /* SidebarView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 10000000000000000000000C /* SidebarView.swift */; };
+		00000000000000000000000D /* OverviewView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 10000000000000000000000D /* OverviewView.swift */; };
+		00000000000000000000000E /* CaptureView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 10000000000000000000000E /* CaptureView.swift */; };
+		00000000000000000000000F /* GalleryView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 10000000000000000000000F /* GalleryView.swift */; };
+		000000000000000000000010 /* MigrationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 100000000000000000000010 /* MigrationView.swift */; };
+		000000000000000000000011 /* SettingsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 100000000000000000000011 /* SettingsView.swift */; };
+		000000000000000000000012 /* PhaseBanner.swift in Sources */ = {isa = PBXBuildFile; fileRef = 100000000000000000000012 /* PhaseBanner.swift */; };
+		000000000000000000000013 /* InventoryModelsTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 100000000000000000000013 /* InventoryModelsTests.swift */; };
+		000000000000000000000014 /* V1MigrationServiceTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 100000000000000000000014 /* V1MigrationServiceTests.swift */; };
+		000000000000000000000015 /* ZIPFoundation in Frameworks */ = {isa = PBXBuildFile; productRef = B00000000000000000000001 /* ZIPFoundation */; };
+		000000000000000000000016 /* ZIPFoundation in Frameworks */ = {isa = PBXBuildFile; productRef = B00000000000000000000002 /* ZIPFoundation */; };
+		000000000000000000000017 /* MigrationModels.swift in Sources */ = {isa = PBXBuildFile; fileRef = 100000000000000000000015 /* MigrationModels.swift */; };
+		000000000000000000000018 /* V1BackupModels.swift in Sources */ = {isa = PBXBuildFile; fileRef = 100000000000000000000016 /* V1BackupModels.swift */; };
+		000000000000000000000019 /* V1BackupReader.swift in Sources */ = {isa = PBXBuildFile; fileRef = 100000000000000000000017 /* V1BackupReader.swift */; };
+		00000000000000000000001A /* V1BackupReaderTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 100000000000000000000018 /* V1BackupReaderTests.swift */; };
+		00000000000000000000001B /* MigrationStorageLayout.swift in Sources */ = {isa = PBXBuildFile; fileRef = 100000000000000000000019 /* MigrationStorageLayout.swift */; };
+		00000000000000000000001C /* SQLiteInventoryRepository.swift in Sources */ = {isa = PBXBuildFile; fileRef = 10000000000000000000001A /* SQLiteInventoryRepository.swift */; };
+		00000000000000000000001D /* SQLiteInventoryRepositoryTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 10000000000000000000001B /* SQLiteInventoryRepositoryTests.swift */; };
+		00000000000000000000001E /* MigrationCommitService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 10000000000000000000001C /* MigrationCommitService.swift */; };
+		00000000000000000000001F /* MigrationCommitServiceTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 10000000000000000000001D /* MigrationCommitServiceTests.swift */; };
+		000000000000000000000020 /* InventoryDraft.swift in Sources */ = {isa = PBXBuildFile; fileRef = 10000000000000000000001E /* InventoryDraft.swift */; };
+		000000000000000000000021 /* InventoryEditingService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 10000000000000000000001F /* InventoryEditingService.swift */; };
+		000000000000000000000022 /* PhotoImportService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 100000000000000000000020 /* PhotoImportService.swift */; };
+		000000000000000000000023 /* InventoryEditingServiceTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 100000000000000000000021 /* InventoryEditingServiceTests.swift */; };
+		000000000000000000000024 /* InventoryPresentation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 100000000000000000000022 /* InventoryPresentation.swift */; };
+		000000000000000000000025 /* ThumbnailService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 100000000000000000000023 /* ThumbnailService.swift */; };
+		000000000000000000000026 /* InventoryFilterBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = 100000000000000000000024 /* InventoryFilterBar.swift */; };
+		000000000000000000000027 /* InventorySpotlightView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 100000000000000000000025 /* InventorySpotlightView.swift */; };
+		000000000000000000000028 /* BackupExportService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 100000000000000000000026 /* BackupExportService.swift */; };
+		000000000000000000000029 /* BackupSavePanel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 100000000000000000000027 /* BackupSavePanel.swift */; };
+		00000000000000000000002A /* BackupExportServiceTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 100000000000000000000028 /* BackupExportServiceTests.swift */; };
+		00000000000000000000002B /* InventoryReport.swift in Sources */ = {isa = PBXBuildFile; fileRef = 100000000000000000000029 /* InventoryReport.swift */; };
+		00000000000000000000002C /* InventoryReportBuilder.swift in Sources */ = {isa = PBXBuildFile; fileRef = 10000000000000000000002A /* InventoryReportBuilder.swift */; };
+		00000000000000000000002D /* InventoryReportExportService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 10000000000000000000002B /* InventoryReportExportService.swift */; };
+		00000000000000000000002E /* InventoryReportSavePanel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 10000000000000000000002C /* InventoryReportSavePanel.swift */; };
+		00000000000000000000002F /* InventoryReportExportView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 10000000000000000000002D /* InventoryReportExportView.swift */; };
+		000000000000000000000030 /* InventoryReportServiceTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 10000000000000000000002E /* InventoryReportServiceTests.swift */; };
+		000000000000000000000031 /* WindowCloseGuard.swift in Sources */ = {isa = PBXBuildFile; fileRef = 10000000000000000000002F /* WindowCloseGuard.swift */; };
+		000000000000000000000032 /* InventoryStoreWindowTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 100000000000000000000030 /* InventoryStoreWindowTests.swift */; };
+		000000000000000000000033 /* KeyboardManagerUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 100000000000000000000031 /* KeyboardManagerUITests.swift */; };
+		000000000000000000000034 /* V1SQLiteSourceReader.swift in Sources */ = {isa = PBXBuildFile; fileRef = 100000000000000000000032 /* V1SQLiteSourceReader.swift */; };
+		000000000000000000000035 /* V1SQLiteSourceReaderTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 100000000000000000000033 /* V1SQLiteSourceReaderTests.swift */; };
+		000000000000000000000036 /* V1SourceDiscoveryService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 100000000000000000000034 /* V1SourceDiscoveryService.swift */; };
+		000000000000000000000037 /* V1SourceDiscoveryServiceTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 100000000000000000000035 /* V1SourceDiscoveryServiceTests.swift */; };
+		000000000000000000000038 /* AppLanguage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 100000000000000000000036 /* AppLanguage.swift */; };
+		000000000000000000000039 /* Localizable.xcstrings in Resources */ = {isa = PBXBuildFile; fileRef = 100000000000000000000037 /* Localizable.xcstrings */; };
+		00000000000000000000003A /* InventoryLargePhotoView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 100000000000000000000038 /* InventoryLargePhotoView.swift */; };
+		00000000000000000000003B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 100000000000000000000039 /* Assets.xcassets */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		300000000000000000000001 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 500000000000000000000001 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 400000000000000000000001;
+			remoteInfo = KeyboardManager;
+		};
+		300000000000000000000003 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 500000000000000000000001 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 400000000000000000000001;
+			remoteInfo = KeyboardManager;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		100000000000000000000001 /* KeyboardManagerApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KeyboardManagerApp.swift; sourceTree = "<group>"; };
+		100000000000000000000002 /* CoreTypes.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoreTypes.swift; sourceTree = "<group>"; };
+		100000000000000000000003 /* Board.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Board.swift; sourceTree = "<group>"; };
+		100000000000000000000004 /* ComponentModels.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ComponentModels.swift; sourceTree = "<group>"; };
+		100000000000000000000005 /* PhotoRecord.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PhotoRecord.swift; sourceTree = "<group>"; };
+		100000000000000000000006 /* InventorySnapshot.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InventorySnapshot.swift; sourceTree = "<group>"; };
+		100000000000000000000007 /* InventoryStore.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InventoryStore.swift; sourceTree = "<group>"; };
+		100000000000000000000008 /* InventoryRepository.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InventoryRepository.swift; sourceTree = "<group>"; };
+		100000000000000000000009 /* V1MigrationService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = V1MigrationService.swift; sourceTree = "<group>"; };
+		10000000000000000000000A /* AppRoute.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppRoute.swift; sourceTree = "<group>"; };
+		10000000000000000000000B /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		10000000000000000000000C /* SidebarView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SidebarView.swift; sourceTree = "<group>"; };
+		10000000000000000000000D /* OverviewView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OverviewView.swift; sourceTree = "<group>"; };
+		10000000000000000000000E /* CaptureView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CaptureView.swift; sourceTree = "<group>"; };
+		10000000000000000000000F /* GalleryView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GalleryView.swift; sourceTree = "<group>"; };
+		100000000000000000000010 /* MigrationView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MigrationView.swift; sourceTree = "<group>"; };
+		100000000000000000000011 /* SettingsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsView.swift; sourceTree = "<group>"; };
+		100000000000000000000012 /* PhaseBanner.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PhaseBanner.swift; sourceTree = "<group>"; };
+		100000000000000000000013 /* InventoryModelsTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InventoryModelsTests.swift; sourceTree = "<group>"; };
+		100000000000000000000014 /* V1MigrationServiceTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = V1MigrationServiceTests.swift; sourceTree = "<group>"; };
+		100000000000000000000015 /* MigrationModels.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MigrationModels.swift; sourceTree = "<group>"; };
+		100000000000000000000016 /* V1BackupModels.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = V1BackupModels.swift; sourceTree = "<group>"; };
+		100000000000000000000017 /* V1BackupReader.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = V1BackupReader.swift; sourceTree = "<group>"; };
+		100000000000000000000018 /* V1BackupReaderTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = V1BackupReaderTests.swift; sourceTree = "<group>"; };
+		100000000000000000000019 /* MigrationStorageLayout.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MigrationStorageLayout.swift; sourceTree = "<group>"; };
+		10000000000000000000001A /* SQLiteInventoryRepository.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SQLiteInventoryRepository.swift; sourceTree = "<group>"; };
+		10000000000000000000001B /* SQLiteInventoryRepositoryTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SQLiteInventoryRepositoryTests.swift; sourceTree = "<group>"; };
+		10000000000000000000001C /* MigrationCommitService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MigrationCommitService.swift; sourceTree = "<group>"; };
+		10000000000000000000001D /* MigrationCommitServiceTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MigrationCommitServiceTests.swift; sourceTree = "<group>"; };
+		10000000000000000000001E /* InventoryDraft.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InventoryDraft.swift; sourceTree = "<group>"; };
+		10000000000000000000001F /* InventoryEditingService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InventoryEditingService.swift; sourceTree = "<group>"; };
+		100000000000000000000020 /* PhotoImportService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Photos/PhotoImportService.swift; sourceTree = "<group>"; };
+		100000000000000000000021 /* InventoryEditingServiceTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InventoryEditingServiceTests.swift; sourceTree = "<group>"; };
+		100000000000000000000022 /* InventoryPresentation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InventoryPresentation.swift; sourceTree = "<group>"; };
+		100000000000000000000023 /* ThumbnailService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Photos/ThumbnailService.swift; sourceTree = "<group>"; };
+		100000000000000000000024 /* InventoryFilterBar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InventoryFilterBar.swift; sourceTree = "<group>"; };
+		100000000000000000000025 /* InventorySpotlightView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InventorySpotlightView.swift; sourceTree = "<group>"; };
+		100000000000000000000026 /* BackupExportService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BackupExportService.swift; sourceTree = "<group>"; };
+		100000000000000000000027 /* BackupSavePanel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BackupSavePanel.swift; sourceTree = "<group>"; };
+		100000000000000000000028 /* BackupExportServiceTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BackupExportServiceTests.swift; sourceTree = "<group>"; };
+		100000000000000000000029 /* InventoryReport.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InventoryReport.swift; sourceTree = "<group>"; };
+		10000000000000000000002A /* InventoryReportBuilder.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InventoryReportBuilder.swift; sourceTree = "<group>"; };
+		10000000000000000000002B /* InventoryReportExportService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InventoryReportExportService.swift; sourceTree = "<group>"; };
+		10000000000000000000002C /* InventoryReportSavePanel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InventoryReportSavePanel.swift; sourceTree = "<group>"; };
+		10000000000000000000002D /* InventoryReportExportView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InventoryReportExportView.swift; sourceTree = "<group>"; };
+		10000000000000000000002E /* InventoryReportServiceTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InventoryReportServiceTests.swift; sourceTree = "<group>"; };
+		10000000000000000000002F /* WindowCloseGuard.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WindowCloseGuard.swift; sourceTree = "<group>"; };
+		100000000000000000000030 /* InventoryStoreWindowTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InventoryStoreWindowTests.swift; sourceTree = "<group>"; };
+		100000000000000000000031 /* KeyboardManagerUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KeyboardManagerUITests.swift; sourceTree = "<group>"; };
+		100000000000000000000032 /* V1SQLiteSourceReader.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = V1SQLiteSourceReader.swift; sourceTree = "<group>"; };
+		100000000000000000000033 /* V1SQLiteSourceReaderTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = V1SQLiteSourceReaderTests.swift; sourceTree = "<group>"; };
+		100000000000000000000034 /* V1SourceDiscoveryService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = V1SourceDiscoveryService.swift; sourceTree = "<group>"; };
+		100000000000000000000035 /* V1SourceDiscoveryServiceTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = V1SourceDiscoveryServiceTests.swift; sourceTree = "<group>"; };
+		100000000000000000000036 /* AppLanguage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppLanguage.swift; sourceTree = "<group>"; };
+		100000000000000000000037 /* Localizable.xcstrings */ = {isa = PBXFileReference; lastKnownFileType = text.json.xcstrings; path = Localizable.xcstrings; sourceTree = "<group>"; };
+		100000000000000000000038 /* InventoryLargePhotoView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InventoryLargePhotoView.swift; sourceTree = "<group>"; };
+		100000000000000000000039 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		100000000000000000000101 /* Keyboard Manager.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Keyboard Manager.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		100000000000000000000102 /* KeyboardManagerTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = KeyboardManagerTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		100000000000000000000103 /* KeyboardManagerUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = KeyboardManagerUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		600000000000000000000001 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				000000000000000000000015 /* ZIPFoundation in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		600000000000000000000002 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				000000000000000000000016 /* ZIPFoundation in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		600000000000000000000003 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		200000000000000000000001 = {
+			isa = PBXGroup;
+			children = (
+				200000000000000000000002 /* KeyboardManager */,
+				20000000000000000000000B /* KeyboardManagerTests */,
+				20000000000000000000000F /* KeyboardManagerUITests */,
+				20000000000000000000000C /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		200000000000000000000002 /* KeyboardManager */ = {
+			isa = PBXGroup;
+			children = (
+				100000000000000000000039 /* Assets.xcassets */,
+				100000000000000000000037 /* Localizable.xcstrings */,
+				200000000000000000000003 /* App */,
+				200000000000000000000004 /* Models */,
+				200000000000000000000005 /* Stores */,
+				200000000000000000000006 /* Services */,
+				200000000000000000000009 /* Support */,
+				20000000000000000000000A /* Views */,
+			);
+			path = KeyboardManager;
+			sourceTree = "<group>";
+		};
+		200000000000000000000003 /* App */ = {
+			isa = PBXGroup;
+			children = (
+				100000000000000000000001 /* KeyboardManagerApp.swift */,
+			);
+			path = App;
+			sourceTree = "<group>";
+		};
+		200000000000000000000004 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				100000000000000000000002 /* CoreTypes.swift */,
+				100000000000000000000003 /* Board.swift */,
+				100000000000000000000004 /* ComponentModels.swift */,
+				100000000000000000000005 /* PhotoRecord.swift */,
+				100000000000000000000006 /* InventorySnapshot.swift */,
+				100000000000000000000015 /* MigrationModels.swift */,
+				10000000000000000000001E /* InventoryDraft.swift */,
+				100000000000000000000022 /* InventoryPresentation.swift */,
+				100000000000000000000029 /* InventoryReport.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		200000000000000000000005 /* Stores */ = {
+			isa = PBXGroup;
+			children = (
+				100000000000000000000007 /* InventoryStore.swift */,
+			);
+			path = Stores;
+			sourceTree = "<group>";
+		};
+		200000000000000000000006 /* Services */ = {
+			isa = PBXGroup;
+			children = (
+				200000000000000000000007 /* Persistence */,
+				200000000000000000000008 /* Migration */,
+				20000000000000000000000D /* Backup */,
+				20000000000000000000000E /* Reports */,
+				100000000000000000000020 /* PhotoImportService.swift */,
+				100000000000000000000023 /* ThumbnailService.swift */,
+			);
+			path = Services;
+			sourceTree = "<group>";
+		};
+		200000000000000000000007 /* Persistence */ = {
+			isa = PBXGroup;
+			children = (
+				100000000000000000000008 /* InventoryRepository.swift */,
+				10000000000000000000001A /* SQLiteInventoryRepository.swift */,
+				10000000000000000000001F /* InventoryEditingService.swift */,
+			);
+			path = Persistence;
+			sourceTree = "<group>";
+		};
+		200000000000000000000008 /* Migration */ = {
+			isa = PBXGroup;
+			children = (
+				100000000000000000000009 /* V1MigrationService.swift */,
+				100000000000000000000016 /* V1BackupModels.swift */,
+				100000000000000000000017 /* V1BackupReader.swift */,
+				100000000000000000000032 /* V1SQLiteSourceReader.swift */,
+				100000000000000000000034 /* V1SourceDiscoveryService.swift */,
+				10000000000000000000001C /* MigrationCommitService.swift */,
+			);
+			path = Migration;
+			sourceTree = "<group>";
+		};
+		20000000000000000000000D /* Backup */ = {
+			isa = PBXGroup;
+			children = (
+				100000000000000000000026 /* BackupExportService.swift */,
+			);
+			path = Backup;
+			sourceTree = "<group>";
+		};
+		20000000000000000000000E /* Reports */ = {
+			isa = PBXGroup;
+			children = (
+				10000000000000000000002A /* InventoryReportBuilder.swift */,
+				10000000000000000000002B /* InventoryReportExportService.swift */,
+			);
+			path = Reports;
+			sourceTree = "<group>";
+		};
+		200000000000000000000009 /* Support */ = {
+			isa = PBXGroup;
+			children = (
+				100000000000000000000036 /* AppLanguage.swift */,
+				10000000000000000000000A /* AppRoute.swift */,
+				100000000000000000000019 /* MigrationStorageLayout.swift */,
+				100000000000000000000027 /* BackupSavePanel.swift */,
+				10000000000000000000002C /* InventoryReportSavePanel.swift */,
+				10000000000000000000002F /* WindowCloseGuard.swift */,
+			);
+			path = Support;
+			sourceTree = "<group>";
+		};
+		20000000000000000000000A /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				10000000000000000000000B /* ContentView.swift */,
+				10000000000000000000000C /* SidebarView.swift */,
+				10000000000000000000000D /* OverviewView.swift */,
+				10000000000000000000000E /* CaptureView.swift */,
+				10000000000000000000000F /* GalleryView.swift */,
+				100000000000000000000010 /* MigrationView.swift */,
+				100000000000000000000011 /* SettingsView.swift */,
+				100000000000000000000012 /* PhaseBanner.swift */,
+				100000000000000000000024 /* InventoryFilterBar.swift */,
+				100000000000000000000025 /* InventorySpotlightView.swift */,
+				100000000000000000000038 /* InventoryLargePhotoView.swift */,
+				10000000000000000000002D /* InventoryReportExportView.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		20000000000000000000000B /* KeyboardManagerTests */ = {
+			isa = PBXGroup;
+			children = (
+				100000000000000000000013 /* InventoryModelsTests.swift */,
+				100000000000000000000014 /* V1MigrationServiceTests.swift */,
+				100000000000000000000018 /* V1BackupReaderTests.swift */,
+				10000000000000000000001B /* SQLiteInventoryRepositoryTests.swift */,
+				10000000000000000000001D /* MigrationCommitServiceTests.swift */,
+				100000000000000000000021 /* InventoryEditingServiceTests.swift */,
+				100000000000000000000028 /* BackupExportServiceTests.swift */,
+				10000000000000000000002E /* InventoryReportServiceTests.swift */,
+				100000000000000000000030 /* InventoryStoreWindowTests.swift */,
+				100000000000000000000033 /* V1SQLiteSourceReaderTests.swift */,
+				100000000000000000000035 /* V1SourceDiscoveryServiceTests.swift */,
+			);
+			path = KeyboardManagerTests;
+			sourceTree = "<group>";
+		};
+		20000000000000000000000C /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				100000000000000000000101 /* Keyboard Manager.app */,
+				100000000000000000000102 /* KeyboardManagerTests.xctest */,
+				100000000000000000000103 /* KeyboardManagerUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		20000000000000000000000F /* KeyboardManagerUITests */ = {
+			isa = PBXGroup;
+			children = (
+				100000000000000000000031 /* KeyboardManagerUITests.swift */,
+			);
+			path = KeyboardManagerUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		400000000000000000000001 /* KeyboardManager */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 800000000000000000000002 /* Build configuration list for PBXNativeTarget "KeyboardManager" */;
+			buildPhases = (
+				700000000000000000000001 /* Sources */,
+				600000000000000000000001 /* Frameworks */,
+				700000000000000000000003 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = KeyboardManager;
+			packageProductDependencies = (
+				B00000000000000000000001 /* ZIPFoundation */,
+			);
+			productName = "Keyboard Manager";
+			productReference = 100000000000000000000101 /* Keyboard Manager.app */;
+			productType = "com.apple.product-type.application";
+		};
+		400000000000000000000002 /* KeyboardManagerTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 800000000000000000000003 /* Build configuration list for PBXNativeTarget "KeyboardManagerTests" */;
+			buildPhases = (
+				700000000000000000000002 /* Sources */,
+				600000000000000000000002 /* Frameworks */,
+				700000000000000000000004 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				300000000000000000000002 /* PBXTargetDependency */,
+			);
+			name = KeyboardManagerTests;
+			packageProductDependencies = (
+				B00000000000000000000002 /* ZIPFoundation */,
+			);
+			productName = KeyboardManagerTests;
+			productReference = 100000000000000000000102 /* KeyboardManagerTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		400000000000000000000003 /* KeyboardManagerUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 800000000000000000000004 /* Build configuration list for PBXNativeTarget "KeyboardManagerUITests" */;
+			buildPhases = (
+				700000000000000000000005 /* Sources */,
+				600000000000000000000003 /* Frameworks */,
+				700000000000000000000006 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				300000000000000000000004 /* PBXTargetDependency */,
+			);
+			name = KeyboardManagerUITests;
+			packageProductDependencies = (
+			);
+			productName = KeyboardManagerUITests;
+			productReference = 100000000000000000000103 /* KeyboardManagerUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		500000000000000000000001 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 2660;
+				LastUpgradeCheck = 2660;
+				TargetAttributes = {
+					400000000000000000000001 = {
+						CreatedOnToolsVersion = 26.0;
+					};
+					400000000000000000000002 = {
+						CreatedOnToolsVersion = 26.0;
+						TestTargetID = 400000000000000000000001;
+					};
+					400000000000000000000003 = {
+						CreatedOnToolsVersion = 26.0;
+						TestTargetID = 400000000000000000000001;
+					};
+				};
+			};
+			buildConfigurationList = 800000000000000000000001 /* Build configuration list for PBXProject "KeyboardManager" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = de;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+				de,
+			);
+			mainGroup = 200000000000000000000001;
+			packageReferences = (
+				A00000000000000000000001 /* XCRemoteSwiftPackageReference "ZIPFoundation" */,
+			);
+			productRefGroup = 20000000000000000000000C /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				400000000000000000000001 /* KeyboardManager */,
+				400000000000000000000002 /* KeyboardManagerTests */,
+				400000000000000000000003 /* KeyboardManagerUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		700000000000000000000003 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				00000000000000000000003B /* Assets.xcassets in Resources */,
+				000000000000000000000039 /* Localizable.xcstrings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		700000000000000000000004 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		700000000000000000000006 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		700000000000000000000001 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				000000000000000000000001 /* KeyboardManagerApp.swift in Sources */,
+				000000000000000000000002 /* CoreTypes.swift in Sources */,
+				000000000000000000000003 /* Board.swift in Sources */,
+				000000000000000000000004 /* ComponentModels.swift in Sources */,
+				000000000000000000000005 /* PhotoRecord.swift in Sources */,
+				000000000000000000000006 /* InventorySnapshot.swift in Sources */,
+				000000000000000000000007 /* InventoryStore.swift in Sources */,
+				000000000000000000000008 /* InventoryRepository.swift in Sources */,
+				000000000000000000000009 /* V1MigrationService.swift in Sources */,
+				00000000000000000000000A /* AppRoute.swift in Sources */,
+				00000000000000000000000B /* ContentView.swift in Sources */,
+				00000000000000000000000C /* SidebarView.swift in Sources */,
+				00000000000000000000000D /* OverviewView.swift in Sources */,
+				00000000000000000000000E /* CaptureView.swift in Sources */,
+				00000000000000000000000F /* GalleryView.swift in Sources */,
+				000000000000000000000010 /* MigrationView.swift in Sources */,
+				000000000000000000000011 /* SettingsView.swift in Sources */,
+				000000000000000000000012 /* PhaseBanner.swift in Sources */,
+				000000000000000000000017 /* MigrationModels.swift in Sources */,
+				000000000000000000000018 /* V1BackupModels.swift in Sources */,
+				000000000000000000000019 /* V1BackupReader.swift in Sources */,
+				000000000000000000000034 /* V1SQLiteSourceReader.swift in Sources */,
+				000000000000000000000036 /* V1SourceDiscoveryService.swift in Sources */,
+				00000000000000000000001B /* MigrationStorageLayout.swift in Sources */,
+				00000000000000000000001C /* SQLiteInventoryRepository.swift in Sources */,
+				00000000000000000000001E /* MigrationCommitService.swift in Sources */,
+				000000000000000000000020 /* InventoryDraft.swift in Sources */,
+				000000000000000000000021 /* InventoryEditingService.swift in Sources */,
+				000000000000000000000022 /* PhotoImportService.swift in Sources */,
+				000000000000000000000024 /* InventoryPresentation.swift in Sources */,
+				000000000000000000000025 /* ThumbnailService.swift in Sources */,
+				000000000000000000000026 /* InventoryFilterBar.swift in Sources */,
+				000000000000000000000027 /* InventorySpotlightView.swift in Sources */,
+				00000000000000000000003A /* InventoryLargePhotoView.swift in Sources */,
+				000000000000000000000028 /* BackupExportService.swift in Sources */,
+				000000000000000000000029 /* BackupSavePanel.swift in Sources */,
+				00000000000000000000002B /* InventoryReport.swift in Sources */,
+				00000000000000000000002C /* InventoryReportBuilder.swift in Sources */,
+				00000000000000000000002D /* InventoryReportExportService.swift in Sources */,
+				00000000000000000000002E /* InventoryReportSavePanel.swift in Sources */,
+				00000000000000000000002F /* InventoryReportExportView.swift in Sources */,
+				000000000000000000000031 /* WindowCloseGuard.swift in Sources */,
+				000000000000000000000038 /* AppLanguage.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		700000000000000000000002 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				000000000000000000000013 /* InventoryModelsTests.swift in Sources */,
+				000000000000000000000014 /* V1MigrationServiceTests.swift in Sources */,
+				00000000000000000000001A /* V1BackupReaderTests.swift in Sources */,
+				00000000000000000000001D /* SQLiteInventoryRepositoryTests.swift in Sources */,
+				00000000000000000000001F /* MigrationCommitServiceTests.swift in Sources */,
+				000000000000000000000023 /* InventoryEditingServiceTests.swift in Sources */,
+				00000000000000000000002A /* BackupExportServiceTests.swift in Sources */,
+				000000000000000000000030 /* InventoryReportServiceTests.swift in Sources */,
+				000000000000000000000032 /* InventoryStoreWindowTests.swift in Sources */,
+				000000000000000000000035 /* V1SQLiteSourceReaderTests.swift in Sources */,
+				000000000000000000000037 /* V1SourceDiscoveryServiceTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		700000000000000000000005 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				000000000000000000000033 /* KeyboardManagerUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		300000000000000000000002 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 400000000000000000000001 /* KeyboardManager */;
+			targetProxy = 300000000000000000000001 /* PBXContainerItemProxy */;
+		};
+		300000000000000000000004 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 400000000000000000000001 /* KeyboardManager */;
+			targetProxy = 300000000000000000000003 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		900000000000000000000001 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				MACOSX_DEPLOYMENT_TARGET = 14.0;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		900000000000000000000002 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				MACOSX_DEPLOYMENT_TARGET = 14.0;
+				SDKROOT = macosx;
+				SWIFT_COMPILATION_MODE = wholemodule;
+		};
+			name = Release;
+		};
+		900000000000000000000003 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				ENABLE_HARDENED_RUNTIME = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_CFBundleDisplayName = "Keyboard Manager";
+				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.utilities";
+				INFOPLIST_KEY_NSHumanReadableCopyright = "Keyboard Manager V2";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 14.0;
+				MARKETING_VERSION = 1.0.0;
+				PRODUCT_BUNDLE_IDENTIFIER = de.r3d42.KeyboardManagerV2;
+				PRODUCT_MODULE_NAME = KeyboardManager;
+				PRODUCT_NAME = "Keyboard Manager";
+				OTHER_LDFLAGS = "-lsqlite3";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_STRICT_CONCURRENCY = complete;
+				SWIFT_VERSION = 6.0;
+			};
+			name = Debug;
+		};
+		900000000000000000000004 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				ENABLE_HARDENED_RUNTIME = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_CFBundleDisplayName = "Keyboard Manager";
+				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.utilities";
+				INFOPLIST_KEY_NSHumanReadableCopyright = "Keyboard Manager V2";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 14.0;
+				MARKETING_VERSION = 1.0.0;
+				PRODUCT_BUNDLE_IDENTIFIER = de.r3d42.KeyboardManagerV2;
+				PRODUCT_MODULE_NAME = KeyboardManager;
+				PRODUCT_NAME = "Keyboard Manager";
+				OTHER_LDFLAGS = "-lsqlite3";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_STRICT_CONCURRENCY = complete;
+				SWIFT_VERSION = 6.0;
+			};
+			name = Release;
+		};
+		900000000000000000000005 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				GENERATE_INFOPLIST_FILE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 14.0;
+				PRODUCT_BUNDLE_IDENTIFIER = de.r3d42.KeyboardManagerV2Tests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_STRICT_CONCURRENCY = complete;
+				SWIFT_VERSION = 6.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Keyboard Manager.app/Contents/MacOS/Keyboard Manager";
+			};
+			name = Debug;
+		};
+		900000000000000000000006 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				GENERATE_INFOPLIST_FILE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 14.0;
+				PRODUCT_BUNDLE_IDENTIFIER = de.r3d42.KeyboardManagerV2Tests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_STRICT_CONCURRENCY = complete;
+				SWIFT_VERSION = 6.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Keyboard Manager.app/Contents/MacOS/Keyboard Manager";
+			};
+			name = Release;
+		};
+		900000000000000000000007 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				GENERATE_INFOPLIST_FILE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 14.0;
+				PRODUCT_BUNDLE_IDENTIFIER = de.r3d42.KeyboardManagerV2UITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_STRICT_CONCURRENCY = complete;
+				SWIFT_VERSION = 6.0;
+				TEST_TARGET_NAME = KeyboardManager;
+			};
+			name = Debug;
+		};
+		900000000000000000000008 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				GENERATE_INFOPLIST_FILE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 14.0;
+				PRODUCT_BUNDLE_IDENTIFIER = de.r3d42.KeyboardManagerV2UITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_STRICT_CONCURRENCY = complete;
+				SWIFT_VERSION = 6.0;
+				TEST_TARGET_NAME = KeyboardManager;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		800000000000000000000001 /* Build configuration list for PBXProject "KeyboardManager" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				900000000000000000000001 /* Debug */,
+				900000000000000000000002 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		800000000000000000000002 /* Build configuration list for PBXNativeTarget "KeyboardManager" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				900000000000000000000003 /* Debug */,
+				900000000000000000000004 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		800000000000000000000003 /* Build configuration list for PBXNativeTarget "KeyboardManagerTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				900000000000000000000005 /* Debug */,
+				900000000000000000000006 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		800000000000000000000004 /* Build configuration list for PBXNativeTarget "KeyboardManagerUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				900000000000000000000007 /* Debug */,
+				900000000000000000000008 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		A00000000000000000000001 /* XCRemoteSwiftPackageReference "ZIPFoundation" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/weichsel/ZIPFoundation.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 0.9.20;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		B00000000000000000000001 /* ZIPFoundation */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = A00000000000000000000001 /* XCRemoteSwiftPackageReference "ZIPFoundation" */;
+			productName = ZIPFoundation;
+		};
+		B00000000000000000000002 /* ZIPFoundation */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = A00000000000000000000001 /* XCRemoteSwiftPackageReference "ZIPFoundation" */;
+			productName = ZIPFoundation;
+		};
+/* End XCSwiftPackageProductDependency section */
+	};
+	rootObject = 500000000000000000000001 /* Project object */;
+}
