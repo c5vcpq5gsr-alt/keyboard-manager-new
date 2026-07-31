@@ -51,6 +51,10 @@ NOTARY_PROFILE="keyboardmanager-new-notary" \
 
 Das Skript archiviert beide Architekturen, prüft die App-Signatur, erzeugt das DMG, signiert und notarisiert es, stapelt das Ticket, prüft DMG und enthaltene App und schreibt eine SHA-256-Datei nach `dist/release/`.
 
+## Update-Vertrag
+
+Die App fragt beim Start ausschließlich `releases/latest` des öffentlichen GitHub-Repositories ab und berücksichtigt nur stabile Release-Tags im Format `vX.Y.Z`. Ein Update ist nur installierbar, wenn der Release sowohl das universelle DMG `Keyboard-Manager-X.Y.Z-universal.dmg` als auch die zugehörige Datei `Keyboard-Manager-X.Y.Z-universal.dmg.sha256` enthält. Die App lädt den Installer erst nach Nutzerbestätigung, vergleicht dessen SHA-256 lokal und öffnet nur eine passende DMG-Datei. Deshalb müssen beide Dateien bei jeder Veröffentlichung gemeinsam hochgeladen werden; der vorhandene Release-Workflow erzwingt dies bereits.
+
 ## GitHub-Repository und CI
 
 Vor dem ersten externen Push muss Sichtbarkeit und Eigentümer feststehen. Der folgende Befehl erzeugt ein **öffentliches** Repository; bei einem privaten Projekt `--public` durch `--private` ersetzen:

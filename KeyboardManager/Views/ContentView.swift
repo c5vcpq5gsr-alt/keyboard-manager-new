@@ -3,9 +3,12 @@ import SwiftUI
 
 struct ContentView: View {
     @Bindable var store: InventoryStore
+    @Bindable var updateController: AppUpdateController
     @Binding var preferredLanguage: String
     let shouldAdoptStoredLanguage: Bool
+    let shouldCheckForUpdates: Bool
     @State private var didInitializeLanguage = false
+    @State private var isUpdateAlertPresented = false
 
     var body: some View {
         NavigationSplitView {
@@ -87,6 +90,9 @@ struct ContentView: View {
             }
             await store.updatePreferredLanguage(preferredLanguage)
             didInitializeLanguage = true
+            if shouldCheckForUpdates {
+                await updateController.checkForUpdates()
+            }
         }
         .onChange(of: preferredLanguage) { _, newValue in
             guard didInitializeLanguage else { return }
@@ -110,6 +116,25 @@ struct ContentView: View {
                 shouldAllowClose: store.shouldAllowWindowClose
             )
             .frame(width: 0, height: 0)
+        }
+        .onChange(of: updateController.availableUpdate) { _, update in
+            isUpdateAlertPresented = update != nil
+        }
+        .alert(
+            "Update verfügbar",
+            isPresented: $isUpdateAlertPresented,
+            presenting: updateController.availableUpdate
+        ) { update in
+            Button("Jetzt laden") {
+                Task {
+                    await updateController.downloadAndOpen(update)
+                }
+            }
+            Button("Später", role: .cancel) {}
+        } message: { update in
+            Text(
+                "Version \(update.version.description) ist verfügbar. Der Installer wird vor dem Öffnen gegen die veröffentlichte SHA-256-Prüfsumme geprüft."
+            )
         }
         .confirmationDialog(
             "Fenster mit ungespeicherten Änderungen schließen?",

@@ -66,6 +66,8 @@
 		000000000000000000000039 /* Localizable.xcstrings in Resources */ = {isa = PBXBuildFile; fileRef = 100000000000000000000037 /* Localizable.xcstrings */; };
 		00000000000000000000003A /* InventoryLargePhotoView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 100000000000000000000038 /* InventoryLargePhotoView.swift */; };
 		00000000000000000000003B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 100000000000000000000039 /* Assets.xcassets */; };
+		00000000000000000000003C /* AppUpdateService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 10000000000000000000003A /* AppUpdateService.swift */; };
+		00000000000000000000003D /* AppUpdateServiceTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 10000000000000000000003B /* AppUpdateServiceTests.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -143,6 +145,8 @@
 		100000000000000000000037 /* Localizable.xcstrings */ = {isa = PBXFileReference; lastKnownFileType = text.json.xcstrings; path = Localizable.xcstrings; sourceTree = "<group>"; };
 		100000000000000000000038 /* InventoryLargePhotoView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InventoryLargePhotoView.swift; sourceTree = "<group>"; };
 		100000000000000000000039 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		10000000000000000000003A /* AppUpdateService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppUpdateService.swift; sourceTree = "<group>"; };
+		10000000000000000000003B /* AppUpdateServiceTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppUpdateServiceTests.swift; sourceTree = "<group>"; };
 		100000000000000000000101 /* Keyboard Manager.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Keyboard Manager.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		100000000000000000000102 /* KeyboardManagerTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = KeyboardManagerTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		100000000000000000000103 /* KeyboardManagerUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = KeyboardManagerUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -235,6 +239,7 @@
 		200000000000000000000006 /* Services */ = {
 			isa = PBXGroup;
 			children = (
+				10000000000000000000003A /* AppUpdateService.swift */,
 				200000000000000000000007 /* Persistence */,
 				200000000000000000000008 /* Migration */,
 				20000000000000000000000D /* Backup */,
@@ -320,6 +325,7 @@
 		20000000000000000000000B /* KeyboardManagerTests */ = {
 			isa = PBXGroup;
 			children = (
+				10000000000000000000003B /* AppUpdateServiceTests.swift */,
 				100000000000000000000013 /* InventoryModelsTests.swift */,
 				100000000000000000000014 /* V1MigrationServiceTests.swift */,
 				100000000000000000000018 /* V1BackupReaderTests.swift */,
@@ -538,6 +544,7 @@
 				00000000000000000000002F /* InventoryReportExportView.swift in Sources */,
 				000000000000000000000031 /* WindowCloseGuard.swift in Sources */,
 				000000000000000000000038 /* AppLanguage.swift in Sources */,
+				00000000000000000000003C /* AppUpdateService.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -556,6 +563,7 @@
 				000000000000000000000032 /* InventoryStoreWindowTests.swift in Sources */,
 				000000000000000000000035 /* V1SQLiteSourceReaderTests.swift in Sources */,
 				000000000000000000000037 /* V1SourceDiscoveryServiceTests.swift in Sources */,
+				00000000000000000000003D /* AppUpdateServiceTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -633,7 +641,7 @@
 					"@executable_path/../Frameworks",
 				);
 				MACOSX_DEPLOYMENT_TARGET = 14.0;
-				MARKETING_VERSION = 1.0.0;
+				MARKETING_VERSION = 1.1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = de.r3d42.KeyboardManagerV2;
 				PRODUCT_MODULE_NAME = KeyboardManager;
 				PRODUCT_NAME = "Keyboard Manager";
@@ -660,7 +668,7 @@
 					"@executable_path/../Frameworks",
 				);
 				MACOSX_DEPLOYMENT_TARGET = 14.0;
-				MARKETING_VERSION = 1.0.0;
+				MARKETING_VERSION = 1.1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = de.r3d42.KeyboardManagerV2;
 				PRODUCT_MODULE_NAME = KeyboardManager;
 				PRODUCT_NAME = "Keyboard Manager";

@@ -27,6 +27,8 @@ Sammlung und Fotos bleiben lokal. Eine externe Bildadresse wird nur nach sichtba
 
 Der auslieferbare Build ist ein Developer-ID-signiertes und von Apple notarisiertes universelles DMG. Anleitung, Voraussetzungen und GitHub-CI-Konfiguration: [RELEASE.md](RELEASE.md).
 
+Die App prüft beim Start das neueste stabile GitHub-Release. Wenn eine neuere Version verfügbar ist, kann der Nutzer das DMG laden; vor dem Öffnen wird es gegen die mitveröffentlichte SHA-256-Datei geprüft.
+
 ## Dokumentation
 
 - `PROJECT_SUMMARY.md`: V1-Inventur, Zielarchitektur und Datenmodell

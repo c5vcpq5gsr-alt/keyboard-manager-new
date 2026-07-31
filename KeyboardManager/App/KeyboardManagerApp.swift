@@ -3,6 +3,7 @@ import SwiftUI
 @main
 struct KeyboardManagerApp: App {
     @State private var store: InventoryStore
+    @State private var updateController = AppUpdateController()
     @AppStorage(AppLanguage.preferenceKey) private var preferredLanguage = AppLanguage.german.rawValue
     @AppStorage("followSystemAppearance") private var followSystemAppearance = true
     private let shouldAdoptStoredLanguage: Bool
@@ -54,8 +55,12 @@ struct KeyboardManagerApp: App {
         WindowGroup("Keyboard Manager") {
             ContentView(
                 store: store,
+                updateController: updateController,
                 preferredLanguage: $preferredLanguage,
-                shouldAdoptStoredLanguage: shouldAdoptStoredLanguage
+                shouldAdoptStoredLanguage: shouldAdoptStoredLanguage,
+                shouldCheckForUpdates: ProcessInfo.processInfo.environment[
+                    "KEYBOARD_MANAGER_UI_TEST_ROOT"
+                ] == nil
             )
                 .frame(minWidth: 980, minHeight: 640)
                 .preferredColorScheme(followSystemAppearance ? nil : .light)
@@ -93,6 +98,7 @@ struct KeyboardManagerApp: App {
         Settings {
             SettingsView(
                 store: store,
+                updateController: updateController,
                 preferredLanguage: $preferredLanguage
             )
             .preferredColorScheme(followSystemAppearance ? nil : .light)
